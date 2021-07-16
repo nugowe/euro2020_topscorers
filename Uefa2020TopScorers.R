@@ -1,3 +1,5 @@
+#!/usr/bin/R
+
 library(pacman)
 library(tidyverse)
 library(scales)
@@ -14,7 +16,7 @@ library(ggtextures)
 library(hrbrthemes)
 
 
-kk <- euro2020GoalScorers %>% 
+GoalScorers <- euro2020GoalScorers %>% 
   ggplot(aes(x = reorder(Player, Goals), y = Goals,
              image = image)) +
   geom_isotype_col(img_width = grid::unit(1, "native"), img_height = NULL,
