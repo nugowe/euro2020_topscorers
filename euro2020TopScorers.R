@@ -16,6 +16,7 @@ library(ggtextures)
 library(hrbrthemes)
 
 
+image <- "https://www.emoji.co.uk/files/apple-emojis/activity-ios/421-soccer-ball.png"
 GoalScorers <- euro2020GoalScorers %>% 
   ggplot(aes(x = reorder(Player, Goals), y = Goals,
              image = image)) +
