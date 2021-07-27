@@ -1,6 +1,6 @@
 #!/usr/bin/R
 
-library(pacman)
+
 library(tidyverse)
 library(scales)
 library(lubridate)
