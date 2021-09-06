@@ -1,5 +1,6 @@
 library(hrbrthemes)
 library(tidyverse)
+library(magick)
 
 uefalogo <- image_read_svg("uefa2020logo.svg")
 
